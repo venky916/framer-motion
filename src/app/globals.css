@@ -10,9 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --shadow-clerk:
+    0 1px 1px rgba(0, 0, 0, 0.05), 0 4px 6px rgba(34, 42, 53, 0.04),
+    0 24px 68px rgba(47, 48, 55, 0.05), 0 2px 3px rgba(0, 0, 0, 0.04);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +26,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
