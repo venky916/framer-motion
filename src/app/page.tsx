@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import Content from "@/components/content";
-
-export default function Home() {
-  return <Content />;
-=======
 import { MotionHooksExample } from "@/components/motion-hook-example";
 
 export default function Home() {
@@ -12,5 +6,4 @@ export default function Home() {
       <MotionHooksExample />
     </div>
   );
->>>>>>> b8edd45fc8b922bdc69bddede62181832f92faa1
 }
