@@ -1,10 +1,10 @@
-import { AnimatedText } from "@/components/animated-text";
-import { AnimationSequences } from "@/components/animation-sequences";
+import { SVGComponent } from "@/components/svg-component";
+import { SVGLines } from "@/components/svg-lines";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <AnimationSequences />
+    <div className="mx-auto flex h-screen w-full items-center justify-center bg-white text-neutral-800">
+      <SVGLines />
     </div>
   );
 }
