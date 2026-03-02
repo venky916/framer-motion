@@ -1,10 +1,10 @@
-import { LayoutCards } from "@/components/layout-cards";
-import { Navbar } from "@/components/navbar";
+import { AnimatedText } from "@/components/animated-text";
+import { AnimationSequences } from "@/components/animation-sequences";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-200 text-neutral-700">
-      <Navbar />
+    <div className="flex min-h-screen items-center justify-center">
+      <AnimationSequences />
     </div>
   );
 }
