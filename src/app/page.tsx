@@ -1,10 +1,5 @@
-import { Content } from "@/components/content";
-import { Basics } from "@/components/1.basics-content";
+import Content from "@/components/content";
 
 export default function Home() {
-  return (
-    <div className="">
-      <Content />
-    </div>
-  );
+  return <Content />;
 }
