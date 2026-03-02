@@ -1,9 +1,10 @@
-import { MotionHooksExample } from "@/components/motion-hook-example";
+import { LayoutCards } from "@/components/layout-cards";
+import { Navbar } from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div>
-      <MotionHooksExample />
+    <div className="min-h-screen bg-gray-200 text-neutral-700">
+      <Navbar />
     </div>
   );
 }
