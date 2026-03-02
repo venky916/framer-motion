@@ -15,3 +15,11 @@ export const Content = () => {
     </div>
   );
 };
+
+export const HoverExit = () => {
+  return (
+    <div className="">
+      <Content />
+    </div>
+  );
+};

@@ -159,3 +159,12 @@ export const AnimationSequences = () => {
     </div>
   );
 };
+
+
+export const AnimationComponent = ()=>{
+    return (
+      <div className="flex min-h-screen items-center justify-center">
+        <AnimationSequences />
+      </div>
+    );
+}

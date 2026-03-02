@@ -57,3 +57,11 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export const LayoutComponent = ()=>{
+   return (
+     <div className="min-h-screen bg-gray-200 text-neutral-700">
+       <Navbar />
+     </div>
+   );
+}

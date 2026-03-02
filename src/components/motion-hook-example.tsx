@@ -157,3 +157,11 @@ const features: Feature[] = [
     ),
   },
 ];
+
+export const MotionHooks = () => {
+  return (
+    <div>
+      <MotionHooksExample />
+    </div>
+  );
+};

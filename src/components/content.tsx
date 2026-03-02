@@ -1,7 +1,9 @@
 import { Dashboard } from "./dashboard";
 
-const Content = () => {
+export const VariantComponent = () => {
   return <Dashboard />;
 };
 
-export default Content;
+
+
+

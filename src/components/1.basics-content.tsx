@@ -62,3 +62,11 @@ export const Basics = () => {
     </div>
   );
 };
+
+export const BasicsContent = () => {
+  return (
+    <div>
+      <Basics />
+    </div>
+  );
+};

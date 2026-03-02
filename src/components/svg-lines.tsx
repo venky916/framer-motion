@@ -245,3 +245,11 @@ export const SVG = () => {
     </motion.svg>
   );
 };
+
+export const SVGComp = ()=>{
+    return (
+      <div className="mx-auto flex h-screen w-full items-center justify-center bg-white text-neutral-800">
+        <SVGLines />
+      </div>
+    );
+}
