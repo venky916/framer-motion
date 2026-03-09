@@ -27,7 +27,7 @@ export const Content = () => {
       )}
       style={{
         backgroundImage:
-          "radial-gradient(circle at 10px 10px, rgba(6,182,212,0.2) 1px ,transparent 0)",
+          "radial-gradient(circle at 10px 10px, rgba(6,182,212,0.9) 1px ,transparent 0)",
         backgroundSize: "30px 30px",
         //   backgroundPosition: "center center", similar to circle at center
         backgroundRepeat: "repeat",
