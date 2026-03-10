@@ -95,7 +95,7 @@ export const Sidebar = () => {
       initial={false}
       animate={isOpen ? "open" : "closed"}
       exit={"closed"}
-      //   whileHover={"open"}
+      // whileHover={"open"}
       transition={{ duration: 0.3 }}
       className="h-full border-r border-neutral-100"
     >
@@ -119,12 +119,12 @@ export const Sidebar = () => {
         </div>
         <div className="relative">
           <nav className="p-4">
-            <motion.ul variants={parentVariants} className="space-y-2">
+            <motion.ul variants={parentVariants} className="space-y-2 divide-y-2 divide-gray-200">
               {links.map((link) => (
                 <motion.li variants={childVariants} key={link.name}>
                   <a
                     href={link.href}
-                    className="flex items-center gap-2 rounded p-2 text-gray-700 hover:bg-gray-200"
+                    className="flex items-center gap-2 rounded p-2 text-gray-700 hover:bg-gray-200 my-2"
                     title={isOpen ? link.name : ""}
                   >
                     {link.icon}
