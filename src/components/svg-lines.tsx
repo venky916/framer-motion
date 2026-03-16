@@ -29,7 +29,7 @@ export const SVGLines = () => {
         </div>
         <div className="absolute inset-0 h-full w-full scale-[1.5] animate-spin [background-image:conic-gradient(at_center,transparent,var(--color-blue-500)_20%,transparent_30%)]" />
         {/* //[animation-duration:4s] */}
-        <div className="absolute inset-0 h-full w-full scale-[1.5] animate-spin [background-image:conic-gradient(at_center,transparent,var(--color-red-500)_20%,transparent_30%)] [animation-delay:0.4ss]" />
+        <div className="absolute inset-0 h-full w-full scale-[1.5] animate-spin [background-image:conic-gradient(at_center,transparent,var(--color-red-500)_20%,transparent_30%)] [animation-delay:0.4s]" />
       </div>
     </motion.div>
   );
